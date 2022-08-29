@@ -199,5 +199,5 @@ Assim como no PCAColor, um arquivo referente as cores a serem utilizadas no resu
 
 
 > PCA	12	/home/thiago/PycharmProjects/3A/PCAColor
-```
+
 
