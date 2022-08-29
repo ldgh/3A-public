@@ -182,7 +182,7 @@ ASIA	ASIA	/home/thiagop/3A_JC/ASIAN	1	22	37
 
 ## Outros
 
-#### PCAColor (utilizado dentro do arquivo analises.txt)
+### PCAColor (utilizado dentro do arquivo analises.txt)
 >ADMIXTURE	2	12	2	2	MEGA1	/home/thiago/PycharmProjects/3A/Cores
 
 
