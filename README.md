@@ -185,13 +185,7 @@ ASIA	ASIA	/home/thiagop/3A_JC/ASIAN	1	22	37
 #### PCAColor (utilizado dentro do arquivo analises.txt)
 >ADMIXTURE	2	12	2	2	MEGA1	/home/thiago/PycharmProjects/3A/Cores
 
-```
-#Pop,simbolo,cor,tamanho
-MEGA1	*	pink	 2
-MEGA2	o	orange	2
-MEGA3	D	forestgreen	2
-PAN	.	blue	2
-```
+
 - **PCA**: Faz todas as análises necessárias (merge datasets, LD prunning, convertf e smartpca), gera a quantidade de PCs na segunda colunas (no exemplo, 8) e plota baseado no arquivo PCAColor.txt. O PCA color tem o ID quye deve estar incluido no arquivo do **Database**, o [formato](https://matplotlib.org/3.3.3/api/markers_api.html) e a [cor](https://matplotlib.org/3.1.0/gallery/color/named_colors.html). 
 - **ADMIXTURE**: Faz todas as análises necessárias (merge datasets, LD prunning, admixture), gera o ADMIXTURE do K da segunda coluna até o K da terceira coluna (2 e 5 no exemplo), repetindo cada K a quantidade de vezes da coluna 5 (2) e o plot deve ser guiar pela ancestralidade referência da coluna 6 (AFR) e com as cores no barplot seguindo a lista de cores do arquivo definido (Cores.txt).  **A quarta coluna foi descontinuada uma vez que o número de threads foi passado para o getopt**. Note que você pode mudar o plot do ADMIXTURE usando a flag -A, que só rodará o plot do ADMIXTURE.
 - **RFMIX**: Faz todas as análises necessárias (merge datasets, haplotipagem, separar referência dos miscigenados e inferência via rfmix2)
@@ -206,9 +200,4 @@ Assim como no PCAColor, um arquivo referente as cores a serem utilizadas no resu
 
 > PCA	12	/home/thiago/PycharmProjects/3A/PCAColor
 ```
-#Cor (está ordenado de acordo com os dados do database.txt)
-green
-blue
-red
-pink
-```
+
