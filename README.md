@@ -15,6 +15,8 @@ Script implementado por [LEAL, THIAGO P]( http://lattes.cnpq.br/1908814778674963
 - [x] Local Ancestry com RFMix2
 - [ ] IBD
 
+[Clique para ir para o Fluxograma Público atualizado](https://github.com/ldgh/3A-public/blob/e278da1f3de28d0863295d88151ec1f25be28b26/ancestry_sptember2022_carol_publico.pdf)
+
 O script funciona no padrão de arquivos de descrição, isso é, você configura os arquivos de entrada de forma que todos os parâmetros estejam descritos nos files.
 O programa tem o seguinte getopt:
 
