@@ -66,8 +66,11 @@ No script implementado em Python 3 utilizamos as seguintes bibliotecas:
 - pandas
 - seaborn
 
-Também utilizamos um script implementado em Python2 modificado chamado [plot_karyogram](https://github.com/armartin/ancestry_pipeline/blob/master/plot_karyogram.py) 
+Também utilizamos um script implementado em Python2 modificado chamado [plot_karyogram](https://github.com/armartin/ancestry_pipeline.git) 
 que utiliza as seguintes bibliotecas:
+
+
+
 
 - os
 - argparse
