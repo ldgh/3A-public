@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Script implementado por [LEAL, THIAGO P]( http://lattes.cnpq.br/1908814778674963) tem como objetivo automatizar e padronizar as análises genético-populacionais realizadas no LDGH. O programa atualmente (31/12/2020) realiza todos os passos necessários para as seguintes análises:
+Script implementado por [LEAL, T. P.]( http://lattes.cnpq.br/1908814778674963) tem como objetivo automatizar e padronizar as análises genético-populacionais realizadas no LDGH. O programa atualmente (31/12/2020) realiza todos os passos necessários para as seguintes análises:
 
 - [x] PCA
 - [x] ADMIXTURE
