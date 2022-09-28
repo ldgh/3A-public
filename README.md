@@ -189,11 +189,24 @@ ASIA	ASIA	/home/thiagop/3A_JC/ASIAN	1	22	37
 >ADMIXTURE	2	12	2	2	MEGA1	/home/thiago/PycharmProjects/3A/Cores
 
 
-- **PCA**: Faz todas as análises necessárias (merge datasets, LD prunning, convertf e smartpca), gera a quantidade de PCs na segunda colunas (no exemplo, 8) e plota baseado no arquivo PCAColor.txt. O PCA color tem o ID quye deve estar incluido no arquivo do **Database**, o [formato](https://matplotlib.org/3.3.3/api/markers_api.html) e a [cor](https://matplotlib.org/3.1.0/gallery/color/named_colors.html). 
+- **PCA**: Faz todas as análises necessárias (merge datasets, LD prunning, convertf e smartpca), gera a quantidade de PCs na segunda colunas (no exemplo, 8) e plota baseado no arquivo PCAColor.txt. O PCA color tem o ID quye deve estar incluido no arquivo do **Database**, o [formato](https://matplotlib.org/3.3.3/api/markers_api.html) e a [cor](https://matplotlib.org/3.1.0/gallery/color/named_colors.html).
+
+![BD](https://user-images.githubusercontent.com/73356412/192793154-8d7c6b07-0d6b-4c24-9faf-6582e6427151.png)
+
+> Kehdy et al. Figure 3 (B e D) 
+Published online 2015 Jun 29. [doi: 10.1073/pnas.1504447112](https://www.pnas.org/doi/full/10.1073/pnas.1504447112)
+
+![AC](https://user-images.githubusercontent.com/73356412/192796172-3a303bbe-dae6-47ee-91b7-70db9163cafe.png)
+
+> Kehdy et al. Figure 3 (A e C) 
+Published online 2015 Jun 29. [doi: 10.1073/pnas.1504447112](https://www.pnas.org/doi/full/10.1073/pnas.1504447112)
+
 - **ADMIXTURE**: Faz todas as análises necessárias (merge datasets, LD prunning, admixture), gera o ADMIXTURE do K da segunda coluna até o K da terceira coluna (2 e 5 no exemplo), repetindo cada K a quantidade de vezes da coluna 5 (2) e o plot deve ser guiar pela ancestralidade referência da coluna 6 (AFR) e com as cores no barplot seguindo a lista de cores do arquivo definido (Cores.txt).  **A quarta coluna foi descontinuada uma vez que o número de threads foi passado para o getopt**. Note que você pode mudar o plot do ADMIXTURE usando a flag -A, que só rodará o plot do ADMIXTURE.
 - **RFMIX**: Faz todas as análises necessárias (merge datasets, haplotipagem, separar referência dos miscigenados e inferência via rfmix2)
 - **RFMIX individual**: Faz o plot dos cromossomos miscigenados de um indivíduo específico (coluna 2) que está presente na pasta presentes na coluna 3 (/home/thiagop/3A_JC/admix/RFMix) com o nome presente na coluna 4 (LocalAncestry), usando somente as janelas com o valor maior ou igual com o valor rpesente na coluna 5 (0.95), cujas parentais estão presente na coluna 6 (EUR,NAT,AFR,ASIA,UNK) que tem as cores na coluna 7 (red,forestgreen,blue,pink,black) e que tem como primeiro cromossomo na coluna 8 e o último na coluna 9 (1 e 22 respectivamente) 
 - **RFMIX populational**: Faz o plot das ancestralidades pro cromossomo e distribuição dos tamanhos de tracts do banco de dados que está presente na pasta presentes na coluna 2 (/home/thiagop/3A_JC/admix/RFMix) com o nome presente na coluna 3 (LocalAncestry), usando somente as janelas com o valor maior ou igual com o valor rpesente na coluna 4 (0.95), cujas parentais estão presente na coluna 5 (EUR,NAT,AFR,ASIA,UNK) que tem as cores na coluna 6 (red,forestgreen,blue,pink,black) e que tem como primeiro cromossomo na coluna 7 e o último na coluna 8 (1 e 22 respectivamente) 
+
+
 
 ### Cores (utilizado dentro do arquivo analises.txt)
 
