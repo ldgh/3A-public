@@ -213,6 +213,7 @@ Published online 2015 Jun 29. [doi: 10.1073/pnas.1504447112](https://www.pnas.or
 - **RFMIX individual**: Faz o plot dos cromossomos miscigenados de um indivíduo específico (coluna 2) que está presente na pasta presentes na coluna 3 (/home/thiagop/3A_JC/admix/RFMix) com o nome presente na coluna 4 (LocalAncestry), usando somente as janelas com o valor maior ou igual com o valor rpesente na coluna 5 (0.95), cujas parentais estão presente na coluna 6 (EUR,NAT,AFR,ASIA,UNK) que tem as cores na coluna 7 (red,forestgreen,blue,pink,black) e que tem como primeiro cromossomo na coluna 8 e o último na coluna 9 (1 e 22 respectivamente) 
 - 
 ![Mosaic002](https://user-images.githubusercontent.com/73356412/192803093-224c2710-d960-47c5-ad2d-fc196d931d94.png)![Mosaic003](https://user-images.githubusercontent.com/73356412/192804759-be8ba054-3566-4826-9787-7d622d015af6.png)
+![Mosaic011](https://user-images.githubusercontent.com/73356412/192842209-9cae5b3d-0f31-462a-a837-343a74788ae6.png)
 
 
 
