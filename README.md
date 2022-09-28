@@ -216,15 +216,22 @@ Published online 2015 Jun 29. [doi: 10.1073/pnas.1504447112](https://www.pnas.or
 
 
 
-
 - **RFMIX populational**: Faz o plot das ancestralidades pro cromossomo e distribuição dos tamanhos de tracts do banco de dados que está presente na pasta presentes na coluna 2 (/home/thiagop/3A_JC/admix/RFMix) com o nome presente na coluna 3 (LocalAncestry), usando somente as janelas com o valor maior ou igual com o valor rpesente na coluna 4 (0.95), cujas parentais estão presente na coluna 5 (EUR,NAT,AFR,ASIA,UNK) que tem as cores na coluna 6 (red,forestgreen,blue,pink,black) e que tem como primeiro cromossomo na coluna 7 e o último na coluna 8 (1 e 22 respectivamente) 
 
+
+<p align="center">
+    <img width=600 src="https://user-images.githubusercontent.com/73356412/192812095-d9f275e6-bbf0-44e6-a8c9-ff681b0a972a.jpg">
+</p>
+
+
+<p align="center">
+    <img width=600 src="https://user-images.githubusercontent.com/73356412/192812171-3c62633a-6e02-4379-a3c4-64c1cdde199f.jpg">
+</p>
 
 
 ### Cores (utilizado dentro do arquivo analises.txt)
 
 Assim como no PCAColor, um arquivo referente as cores a serem utilizadas no resultados dos Admixture:
-
 
 
 > PCA	12	/home/thiago/PycharmProjects/3A/PCAColor
