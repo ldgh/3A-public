@@ -1,12 +1,13 @@
 # 3A-public
 
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ldgh/3A-public/blob/4470b11749b4aa1877d52ccc342aa69577c5e450/README.EN.md)
+
 <p align="center">
     <img width=800 src="https://user-images.githubusercontent.com/73356412/193077671-df457bd4-243a-4a83-aa08-2ee320939986.png">
 </p>
 
 
-
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ldgh/3A-public/blob/4470b11749b4aa1877d52ccc342aa69577c5e450/README.EN.md)
 
 - [Introdução](#Introduçao)
 - [Bibliotecas](#Bibliotecas)
