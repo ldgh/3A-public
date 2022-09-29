@@ -1,5 +1,6 @@
 # 3A-public
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ldgh/3A-public/blob/4470b11749b4aa1877d52ccc342aa69577c5e450/README.EN.md)
 
 - [Introdução](#Introduçao)
 - [Bibliotecas](#Bibliotecas)
