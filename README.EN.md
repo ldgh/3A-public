@@ -5,8 +5,8 @@
 </p>
 
 
-- [Introduction](#Introduction)
-- [Libraries](#Libraries)
+- [Introduction](#introduction)
+- [Libraries](#libraries)
 - [Flags and Input Files](#flags)
 - [Other inputs](#others)
 
