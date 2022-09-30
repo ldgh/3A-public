@@ -19,17 +19,21 @@ ADICIONAR UMA FIGURA 1 AQUI
 
 O LDGH integra diferentes metodologias para realizar as inferências de ancestralidades com dados genômicos. O fluxograma da Figura 2 ilustra nosso pipeline bioinformático para realizar diferentes análises genético populacionais relacionados com as inferências da ancestralidade, com loci independentes (REAP, NaTORA, PCA, Admixture) e a partir de haplótipos (RFMix, IBDrefine, Chromopainter).
 
+
+[Clique para ir para o Fluxograma Público de Ancestralidade do LDGH (atualizado)](https://github.com/ldgh/3A-public/blob/e278da1f3de28d0863295d88151ec1f25be28b26/ancestry_sptember2022_carol_publico.pdf)
+
 <p align="center">
-    <img width=500 src="https://user-images.githubusercontent.com/73356412/193077671-df457bd4-243a-4a83-aa08-2ee320939986.png">
+    <img width=500 src="https://user-images.githubusercontent.com/73356412/193077671-df457bd4-243a-4a83-aa08-2ee320939986.png">	
 </p>
+
 <p align="center">
     Figura 2
 </p>
 
 As Figuras A e B, extraídas de [Kehdy et al. (2015)](https://www.pnas.org/doi/full/10.1073/pnas.1504447112) ilustram a ancestralidade de populações brasileiras do projeto EPIGEN-Brasil. 
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/73356412/192796172-3a303bbe-dae6-47ee-91b7-70db9163cafe.png">
+<p align="center">   
+<img src="https://user-images.githubusercontent.com/73356412/193340754-a5770f80-e91d-4cb0-83e3-34d8be7eb820.png">
 </p>
 
 <p align="center">
@@ -58,8 +62,6 @@ O cromosaicos da Figura 3 ilustram a ancestralidade local cromossomica de alguns
 - [x] Local Ancestry com RFMix2
 - [ ] IBD
 - [ ] Chromopainter
-
-[Clique para ir para o Fluxograma Público de Ancestralidade do LDGH (atualizado)](https://github.com/ldgh/3A-public/blob/e278da1f3de28d0863295d88151ec1f25be28b26/ancestry_sptember2022_carol_publico.pdf)
 
 O script funciona no padrão de arquivos de descrição, isso é, você configura os arquivos de entrada de forma que todos os parâmetros estejam descritos nos files.
 O programa tem o seguinte getopt:
