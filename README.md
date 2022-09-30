@@ -3,20 +3,55 @@
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ldgh/3A-public/blob/4eb4585f508d3462c38a908aadce26fc1bc855d1/README.EN.md)
 
-<p align="center">
-    <img width=800 src="https://user-images.githubusercontent.com/73356412/193077671-df457bd4-243a-4a83-aa08-2ee320939986.png">
-</p>
 
 
-
-- [Introdução](#Introduçao)
-- [Bibliotecas](#Bibliotecas)
+- [Introdução](#introdução)
+- [Bibliotecas](#bibliotecas)
 - [Flags e Arquivos de Input](#flags)
 - [Outros inputs](#outros)
 
 ## Introdução
 
-Script implementado por [LEAL, T. P.]( http://lattes.cnpq.br/1908814778674963) tem como objetivo automatizar e padronizar as análises genético-populacionais realizadas no LDGH. O programa atualmente (31/12/2020) realiza todos os passos necessários para as seguintes análises:
+As inferências de ancestralidade genética em uma população ou indivíduos miscigenados pode se dar em três níveis (Figura 1): populacional, individual e local cromossômica, sendo que todas essas medidas estão correlacionadas. A ancestralidade populacional é a porcentagem do conjunto dos genomas de uma população que deriva de cada uma das populações parentais. As ancestralidades individuais são as porcentagens do genoma de um indivíduo miscigenado originárias de cada uma das populações parentais.  A inferência de ancestralidade cromossômica é a inferência da ancestralidade de cada ponto de cada cromossomo de cada indivíduo. 
+
+ADICIONAR UMA FIGURA 1 AQUI
+
+
+O LDGH integra diferentes metodologias para realizar as inferências de ancestralidades com dados genômicos. O fluxograma da Figura 2 ilustra nosso pipeline bioinformático para realizar diferentes análises genético populacionais relacionados com as inferências da ancestralidade, com loci independentes (REAP, NaTORA, PCA, Admixture) e a partir de haplótipos (RFMix, IBDrefine, Chromopainter).
+
+<p align="center">
+    <img width=500 src="https://user-images.githubusercontent.com/73356412/193077671-df457bd4-243a-4a83-aa08-2ee320939986.png">
+</p>
+<p align="center">
+    Figura 2
+</p>
+
+As Figuras A e B, extraídas de [Kehdy et al. (2015)](https://www.pnas.org/doi/full/10.1073/pnas.1504447112) ilustram a ancestralidade de populações brasileiras do projeto EPIGEN-Brasil. 
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/73356412/192796172-3a303bbe-dae6-47ee-91b7-70db9163cafe.png">
+</p>
+
+<p align="center">
+    Figuras A e B
+</p>
+
+O cromosaicos da Figura 3 ilustram a ancestralidade local cromossomica de alguns membros do nosso grupo de pesquisa.
+
+
+<p align="center">
+    <img width=300 src="https://user-images.githubusercontent.com/73356412/192803093-224c2710-d960-47c5-ad2d-fc196d931d94.png">
+    <img width=300 src="https://user-images.githubusercontent.com/73356412/192804759-be8ba054-3566-4826-9787-7d622d015af6.png">
+	<img width=300 src="https://user-images.githubusercontent.com/73356412/192842209-9cae5b3d-0f31-462a-a837-343a74788ae6.png">
+</p>
+
+<p align="center">
+    Figura 3
+</p>
+
+
+[LEAL, T. P.]( http://lattes.cnpq.br/1908814778674963) do nosso grupo tem desenvolvido a ferramenta MosA3ic para automatizar a integração de parte dessas metodologias (PCA, Admixture e a inferência da ancestralidade local com RFMix2). O programa atualmente (31/12/2020) realiza todos os passos necessários para as seguintes análises:
+
 
 - [x] PCA
 - [x] ADMIXTURE
