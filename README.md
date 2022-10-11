@@ -12,9 +12,7 @@
 
 ## Introdução
 
-As inferências de ancestralidade genética em uma população ou indivíduos miscigenados pode se dar em três níveis (Figura 1): populacional, individual e local cromossômica, sendo que todas essas medidas estão correlacionadas. A ancestralidade populacional é a porcentagem do conjunto dos genomas de uma população que deriva de cada uma das populações parentais. As ancestralidades individuais são as porcentagens do genoma de um indivíduo miscigenado originárias de cada uma das populações parentais.  A inferência de ancestralidade cromossômica é a inferência da ancestralidade de cada ponto de cada cromossomo de cada indivíduo. 
-
-ADICIONAR UMA FIGURA 1 AQUI
+As inferências de ancestralidade genética em uma população ou indivíduos miscigenados pode se dar em três níveis : populacional, individual e local cromossômica, sendo que todas essas medidas estão correlacionadas. A ancestralidade populacional é a porcentagem do conjunto dos genomas de uma população que deriva de cada uma das populações parentais. As ancestralidades individuais são as porcentagens do genoma de um indivíduo miscigenado originárias de cada uma das populações parentais.  A inferência de ancestralidade cromossômica é a inferência da ancestralidade de cada ponto de cada cromossomo de cada indivíduo. 
 
 
 O LDGH integra diferentes metodologias para realizar as inferências de ancestralidades com dados genômicos. O fluxograma da Figura 2 ilustra nosso pipeline bioinformático para realizar diferentes análises genético populacionais relacionados com as inferências da ancestralidade, com loci independentes (REAP, NaTORA, PCA, Admixture) e a partir de haplótipos (RFMix, IBDrefine, Chromopainter).
